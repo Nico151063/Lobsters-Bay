@@ -1,0 +1,40 @@
+{
+  "id": "lobsters-bay",
+  "title": "Lobster's Bay",
+  "description": "Aventure ...",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Grimmbart de Ferdock",
+      "flags": {}
+    }
+  ],
+    "esmodules": [
+      "lobsters-bay.js"
+    ],
+    "scripts": [],
+    "styles": [
+      "./styles/lobsters-bay.css"
+    ],  
+  "packs": [
+    {
+      "name": "lobsters-bay-adventure",
+      "label": "Lobster's Bay Adventure",
+      "path": "packs/lobsters-bay-adventure",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "CoC7",
+      "flags": {}
+    }
+  ],
+    "url": "https://github.com/Nico151063/lobsters-bay",
+    "manifest": "https://github.com/Nico151063/lobsters-bay/releases/download/1.0.0/module.json",
+    "download": "https://github.com/Nico151063/lobsters-bay/releases/download/1.0.0/lobsters-bay.zip"
+}

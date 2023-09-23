@@ -1,0 +1,187 @@
+/* Supression Image de fond "Points de Vie" sur feuille de personnage */
+.sheetV2.character form .container .sheet-body .hp-group {
+    background-image: none;
+}
+
+/* Supression Image de fond "Santé mentale" sur feuille de personnage */
+.sheetV2.character form .container .sheet-body .san-group {
+    background-image: none;
+}
+
+
+/* Supression Image de fond "Santé mentale" sur feuille de personnage */
+.sheetV2.character form .container .sheet-body .luck-group {
+    background-image: none;
+}
+
+/* Supression Image de fond "Santé mentale" sur feuille de personnage */
+.sheetV2.character form .container .sheet-body .magic-group {
+    background-image: none;
+}
+
+
+/*---------- POLICES DE CARACTERES */
+
+/* Type de Polices */
+.txtAdventure {
+    font-family: "Adventure";
+    src: url("./fonts/Adventure.otf") format('opentype');
+}
+
+.txtTimesNewRoman {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.txtArial {
+    font-family: Arial, sans-serif;
+}
+
+.txtHelvetica {
+    font-family: Helvetica, sans-serif;
+}
+
+.txtCourierNew {
+    font-family: "Courier New", monospace;
+}
+
+.txtCourierNew {
+    font-family: "Courier New", monospace;
+}
+
+.txtSignika {
+    font-family: "Signika", sans-serif;
+}
+
+.txtTaroca {
+    font-family: "Taroca";
+    src: url("./fonts/Taroca.ttf") format('truetype');
+}
+
+/* Taille */
+.txt12 {
+    font-size: 12px;
+}
+
+.txt14 {
+    font-size: 14px;
+}
+
+.txt16 {
+    font-size: 16px;
+}
+
+.txt18 {
+    font-size: 18px;
+}
+
+.txt24 {
+    font-size: 24px;
+}
+
+.txt36 {
+    font-size: 36px;
+}
+
+.txt48 {
+    font-size: 48px;
+}
+
+/* Gras-Italic */
+.txtBold {
+    font-weight: bold;
+}
+
+.txtItalic {
+    font-style: italic;
+}
+
+.txtNormalfStyle-n {
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+/*---------- ZONES PARAGRAPHES */
+
+.infos {
+    background-color: rgba(196, 196, 196, 0.5);
+        border-top: 1px solid rgb(64, 64, 64);
+    border-bottom: 1px solid rgb(64, 64, 64);
+
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    color: black;
+    font-family: "Signika", sans-serif;    
+    text-align: justify;
+}
+.infos.img {
+    border: 0px;
+}
+
+.infosMJ {
+    background-color: rgba(255, 0, 0, 0.5);
+    border-top: 2px solid rgb(64, 0, 0);
+    border-bottom: 2px solid rgb(64, 0, 0);
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    color: rgb(96, 0, 0);
+    font-family: "Signika", sans-serif;
+    text-align: justify;
+}
+
+.infosPJ {
+    background-color: rgba(0, 140, 0, 0.2);
+    border-bottom: 1px solid rgb(0, 64, 0);
+    border-top: 1px solid rgb(0, 64, 0);
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    color: rgb(0, 64, 0);
+    font-family: "Signika", sans-serif;    
+    text-align: justify;
+}
+
+/*
+.infosPJ p {
+    margin: 2px;
+}
+.infosPJ ul {
+    margin: 2px;
+}
+*/
+
+.story {
+    background-color: rgb(223, 223, 255);
+    border-top: 1px solid rgb(0, 64, 0);
+    border-right: 1px solid rgb(0, 64, 0);
+    border-bottom: 1px solid rgb(0, 64, 0);
+    border-left: 4px solid rgb(0, 64, 0);
+    border-left-color: rgb(44, 54, 206);    
+
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+
+    color: rgb(64, 64, 64);
+    font-family: "Signika", sans-serif;
+    font-size: 14px; 
+}
+
+/*
+.story p {
+    margin: 0;
+}
+*/
